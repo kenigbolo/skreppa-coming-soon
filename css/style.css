@@ -47,10 +47,51 @@
                     .footernav a {
                         color: rgba(47, 47, 47, 0.502);
                     }
-                    
-                    .Rectangle_2 {
-                        background-color: rgb(255, 255, 255);
-                        width: 100%;
-                        height: 2px;
-                        margin-top: 60%;
-                    }
+
+.countdown {
+    margin-top: 35%;
+    width: 100%;
+    color: #fff;
+}
+
+.countdown__segment > span {
+    display: block;
+    text-align: center;
+}
+
+.countdown__number {
+    font-size: 25pt;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.countdown__label {
+    font-size: 10pt;
+}
+
+@media all and (min-width: 992px) {
+    .countdown__number {
+        font-size: 30pt;
+    }
+
+    .countdown__label {
+        font-size: 12pt;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .countdown__number {
+        font-size: 40pt;
+    }
+
+    .countdown__label {
+        font-size: 14pt;
+    }
+}
+
+.countdown__line {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 15%;
+}
