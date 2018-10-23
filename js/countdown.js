@@ -1,7 +1,7 @@
 function countdown() {
 	// declare what time it is now and a date to count to
 	const now = new Date();
-	const event = new Date(2019, 3, 8);
+	const event = new Date(2019, 3, 8);		// SET THE CORRECT DATE HERE!
 
 	// get the timestamps and calculate the remainder
 	var timeNow = now.getTime();
@@ -31,11 +31,11 @@ function countdown() {
 	$('#minutes').html(mm);
 	$('#seconds').html(ss);
 
-	console.log(mon+" "+dd+" "+hh+" "+mm+" "+ss)
-
+	// renew every second
 	setTimeout(countdown, 1000);
 }
 
+// initialize
 $(function() {
 	countdown();
 })
