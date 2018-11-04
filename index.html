@@ -1,98 +1,334 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    <title>Skreppa Coming Soon</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <title>Skreppa - Coming Soon</title>
+    <!-- Included Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300,100' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Files comes here -->
+    <link href="css/grid12.css" rel="stylesheet" media="screen">
+    <!-- Grid System -->
+    <link href="css/james_typography.css" rel="stylesheet" media="screen">
+    <!-- James Framework - TYPOGRAPHY -->
+    <link href="css/main.css" rel="stylesheet" media="screen">
+    <!-- Main CSS file -->
+    <link href="css/color_scheme_light.css" rel="stylesheet" media="screen">
+    <!-- Color scheme (dark/light)-->
+    <link href="css/colors/color_palette_lime.css" rel="stylesheet" media="screen">
+    <!-- Color palette -->
+    <link href="css/rapid-icons.css" rel="stylesheet" media="screen">
+    <!-- James Framework - ICONS -->
+    <link href="css/js_styles/jquery.maximage.min.css" rel="stylesheet" media="screen">
+    <!-- MaxImage background image slideshow -->
+    <link href="css/responsivity.css" rel="stylesheet" media="screen">
+    <!-- Responsive Fixes -->
 
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Modernizer and IE specyfic files -->
+    <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="textsect">
-                    <img src="img/skreppalogo.png">
-                    <h1 class="COMING_SOON">COMMING SOON</h1>
-                    <p class="paragraph1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <h6 class="h6text">Find Vendors around you easily</h6>
-                    <div>
-                        <ul class="nav footernav">
-                            <li class="nav-item ">
-                                <a class="nav-link" href="#">ContactUs</a>
+    <div id="preloader_container">
+
+        <!-- Preloader Screen -->
+        <header class="preloader_header">
+            <div class="preloader_loader">
+                <svg class="preloader_inner" width="60px" height="60px" viewBox="0 0 80 80">
+	                <path class="preloader_loader_circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+	                <path id="preloader_loader_circle" class="preloader_loader_circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+	            </svg>
+            </div>
+        </header>
+        <!-- //Preloader Screen -->
+
+
+        <!-- Fullscreen homepage -->
+        <section class="hero_fullscreen timer newsletter background_video">
+            <!-- You can edit classes of this section to control the content that i displayed and backgrounds of this section, more info in documentation. -->
+
+
+            <!-- Logo and navigation -->
+            <div class="container top_bar">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="images/logo_light@2x.png" alt="logo" class="logo" />
+                        <nav class="navigation_desktop">
+                            <!-- <ul>
+                                <li><a href="#more_info" id="more_info_btn" class="btn-flat waves-effect waves-light">More</a></li>
+                            </ul> -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- //Logo and navigation -->
+
+
+            <!-- Main content -->
+            <div class="container align-left" id="main_content">
+                <div class="content_container row">
+
+
+                    <!-- Headline (put class="headline" in Homepage section if you want slogan to be shown)-->
+                    <h2 class="">Skreppa is coming<br>really soon!</h2>
+
+
+                    <!-- Timer (put class="timer" in Homepage section if you want timer to be shown)-->
+                    <!-- <div id="countdown" class="countdown">
+						<div class="countdown_part first">
+							<h1 class="days">00</h1>
+							<p class="timeRefDays">days</p>
+						</div>
+						<div class="countdown_part">
+							<h1 class="hours">00</h1>
+							<p class="timeRefHours">hours</p>
+						</div>
+						<div class="countdown_part">
+							<h1 class="minutes">00</h1>
+							<p class="timeRefMinutes">minutes</p>
+						</div>
+						<div class="countdown_part last">
+							<h1 class="seconds">00</h1>
+							<p class="timeRefSeconds">seconds</p>
+						</div>
+					</div> -->
+                    <!-- //Timer -->
+
+                    <h6>Skreppa is a mobile and web solution that helps users find <br> and book beauty and health appointments 24/7.</h6>
+                    <h6 style="margin-top: 2%;">If you would like to be notified when the big day comes, <br class="hidden-xs">please leave your e-mail address below.</h6>
+
+
+                    <!-- Newsletter Form (put class="newsletter" in Homepage section if you want newsletter form to be shown)-->
+                    <div class="newsletter_form">
+                        <form action="php/send.php" method="post" id="subscribe-form">
+                            <div class="input-field">
+                                <div data-icon="&#xe563;" class="prefix"></div>
+                                <input id="email" type="email" name="email" class="validate">
+                                <label for="email">Email address</label>
+                            </div>
+                            <button class="btn waves-effect waves-light subscribe-submit" type="submit" name="action" id="subscribe-form-submit">Subscribe Now</button>
+                        </form>
+                        <div id="preview"></div>
+                    </div>
+                    <!-- //Newsletter form -->
+
+
+                </div>
+            </div>
+            <!-- //Main content -->
+
+
+            <!-- Mockups (put class="mockups" in Homepage section if you want mockups to be shown)-->
+            <!-- /Mockup 1-->
+            <div class="mockup mockup-right mockup-animation1">
+                <img src="images/mockups/1/back.png" alt="logo" />
+            </div>
+            <!-- //Mockup 1-->
+
+
+            <!-- /Mockup 2-->
+            <div class="mockup mockup-right mockup-animation2">
+                <img src="images/mockups/1/front.png" alt="logo" />
+            </div>
+            <!-- //Mockup 2-->
+
+
+            <!-- Social Icons -->
+            <div class="container ">
+                <div class="social_icons_container align-left">
+                    <div class="social_icons">
+                        <ul>
+                            <li>
+                                <div data-icon="&#xe282;" class="social_icon twitter_icon" onclick="location.href='#'"></div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                            <li>
+                                <div data-icon="&#xe281;" class="social_icon facebook_icon" onclick="location.href='#'"></div>
+                            </li>
+                            <li>
+                                <div data-icon="&#xe279;" class="social_icon linkdin_icon" onclick="location.href='#'"></div>
+                            </li>
+                            <li>
+                                <div data-icon="&#xe27f;" class="social_icon dribbble_icon" onclick="location.href='#'"></div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 bghalf">
-                <div class="js countdown">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="countdown__segment col-2">
-                                <span id="months" class="countdown__number">x</span>
-                                <span class="countdown__label"> months</span>
-                            </div>
-                            <div class="countdown__segment col-2">
-                                <span id="days" class="countdown__number">x</span>
-                                <span class="countdown__label"> days</span>
-                            </div>
-                            <div class="countdown__segment col-2">
-                                <span id="hours" class="countdown__number">x</span>
-                                <span class="countdown__label"> hours</span>
-                            </div>
-                            <div class="countdown__segment col-2">
-                                <span id="minutes" class="countdown__number">x</span>
-                                <span class="countdown__label"> minutes</span>
-                            </div>
-                            <div class="countdown__segment col-2">
-                                <span id="seconds" class="countdown__number">x</span>
-                                <span class="countdown__label"> seconds</span>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="countdown__line col-10"></div>
-                        </div>
+            <!-- //Social Icons -->
+
+
+            <!-- Video Background -->
+            <div id="maximage_video">
+                <video autoplay="autoplay" loop="loop" muted="muted" width="896" height="504">
+				    <source src="video/video.mp4" type="video/mp4" />
+				    <source src="video/video.webm" type="video/webm" />
+				    <source src="video/video.ogv" type="video/ogg" />
+				</video>
+            </div>
+            <!-- //Video Background -->
+
+
+            <!-- Slider Background -->
+            <div id="maximage_slider">
+                <img src="images/background_slider_01.jpg" alt="" />
+                <img src="images/background_slider_02.jpg" alt="" />
+                <img src="images/background_slider_03.jpg" alt="" />
+                <img src="images/background_slider_04.jpg" alt="" />
+            </div>
+            <!-- //Slider Background -->
+
+
+            <!-- Single Image Background -->
+            <div id="maximage_single">
+                <img src="images/home_background_01.jpg" alt="" />
+            </div>
+            <!-- //Single Image Background -->
+
+
+        </section>
+        <!-- //Homepage -->
+
+
+        <!-- More info -->
+        <section id="more_info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                        <h3>About Us</h3>
+                        <p>Skreppa was founded in 2018 by a group of young people who wanted to create a more hassle free way of booking appointments around the clock. In Icelandic the word skreppa means “to run off for a while”. We wanted to build an app
+                            that would let the users easily book appointments for any beauty or health service that would allow them to “run off for a while” from their everyday worries.
+                        </p>
+                        <p>“I don’t have a regular nail specialist that I go to. One day I decided to treat myself to a manicure. So I googled: “manicure in Tallinn” and got around 1,5 million responses. I clicked through the first five options, looked at
+                            their websites for the prices, checked their feedback on Facebook, tried to figure out where they are located using Google Maps. 30 minutes and 10 open tabs later I decided that I didn’t want a manicure anymore.” _ Julia Co-founder
+                        </p>
+                        <p>
+                            “When I moved to Tartu there was only one person I could book a haircut to, since he specialised in afro hair. First of all, it was hard to reach him by phone, because of course he wasn’t just sitting there waiting for me to call - he was running around
+                            and doing other people’s hair. Secondly, when I finally was able to reach him, the queue was already so long, so I had to wait for at least a couple of weeks for a haircut.” _ Stephen, Co-founder
+
+                        </p>
+
+
                     </div>
+
+                    <!-- Contact Form Section -->
+                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+                        <h3>Skreppa for Business Owners</h3>
+                        <p>Skreppa offers mobile and web booking solutions that can be customisable to the needs of your business. Our first major product is the Skreppa app, which is built to cater the needs of beauty salons that wish to expand their customer
+                            base and make it easier for the existing customers to book appointments.
+
+                        </p>
+                        <ul class="icon_list">
+                            <li>
+                                <div data-icon="&#xe1ab;" class="icon_small float-left"></div>
+                                <h6>added to the booking app, booking solution integrated into your website</h6>
+                            </li>
+                            <li>
+                                <div data-icon="&#xe1d7;" class="icon_small float-left"></div>
+                                <h6>easy to use CRM solution (shift management, calendar management, client management)</h6>
+                            </li>
+                            <li>
+                                <div data-icon="&#xe027;" class="icon_small float-left"></div>
+                                <h6>customisable design</h6>
+                            </li>
+                            <li>
+                                <div data-icon="&#xe0b8;" class="icon_small float-left"></div>
+                                <h6>Oin-app marketing options</h6>
+                            </li>
+                        </ul>
+                        <h3>Contact Us</h3>
+                        <p>For any questions or business inquiries, please contact us at: <a href=" info@skreppa.me">info@skreppa.me </a>
+                        </p>
+
+
+                        <!-- Contact Form -->
+                        <form action="php/contactform.php" id="contact-form" method="post">
+                            <div class="contact_form">
+                                <div class="input-field">
+                                    <input id="first_name" type="email" name="contact-name">
+                                    <label for="first_name">Your Name</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="contact_email" type="email" name="contact-email">
+                                    <label for="contact_email">Email Address</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea class="materialize-textarea" name="contact-message"></textarea>
+                                    <label>Message</label>
+                                </div>
+                            </div>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Send</button>
+                        </form>
+                        <!-- //Contact Form -->
+
+
+                        <div id="message">
+                            <div id="alert"></div>
+                        </div>
+                        <!-- Message container -->
+                    </div>
+                    <!-- //Contact Form Section -->
+
+
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- //More info -->
+
+
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-    <script type="text/javascript" src="js/countdown.js"></script>
-    <script type="text/javascript" src="js/mailer.js"></script>
-</body>
-
-</html>
-<!-- /.container -->
+    <!-- //preloader -->
 
 
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"></script>
+    <!-- JavaScript plugins comes here -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery easing -->
+    <script src="js/jquery.scrollTo.js"></script>
+    <!-- Scroll to -->
+    <script src="js/jquery.cycle.all.min.js"></script>
+    <!-- jQuery cycle -->
+    <script src="js/jquery.form.js"></script>
+    <!-- jQuery form -->
+    <script src="js/jquery.maximage.min.js"></script>
+    <!-- MaxImage background image slideshow -->
+    <script src="js/materialize.js"></script>
+    <!-- Materialize -->
+    <script src="js/classie.js"></script>
+    <!-- Class helper function -->
+    <script src="js/pathLoader.js"></script>
+    <!-- Preloader Loading Animation -->
+    <script src="js/preloader.js"></script>
+    <!-- Preloader -->
+    <script src="js/count_down.js"></script>
+    <!-- Count Down Timer -->
+    <script src="js/happy.js"></script>
+    <!-- Newsletter form validation -->
+    <script src="js/happy.methods.js"></script>
+    <!-- Newsletter form validation -->
+    <script src="js/retina.js"></script>
+    <!-- Retina.js - support for HiDPI Displays -->
+    <script src="js/main.js"></script>
+    <!-- Main Js file -->
+
+
+    <!-- Show message after newsletter form submit -->
+    <script type="text/javascript">
+        $('document').ready(function() {
+            $('#subscribe-form').ajaxForm({
+                target: '#preview',
+                success: function() {
+                    $('#preview').addClass("show_message");
+                }
+            });
+        });
+    </script>
+
+
+
 </body>
 
 </html>
