@@ -109,10 +109,13 @@ var App = { init: function() { App.HomepageHeight();
 
 }
 
-
 $(function() {
   App.init();
-  $(window).resize(App.HomepageHeight);  
+  $(window).resize(App.HomepageHeight);
+  $('#subscribe-form').submit((e) => {
+    e.preventDefault();
+    createEmailEntry();
+  });
 });
 
 })(jQuery);
